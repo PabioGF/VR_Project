@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/VRSample/Scenes/DayNightSelector.unity
+    path: Assets/VRSample/VRProject/Scenes/DayNightSelector.unity
     guid: b4a3af6ae1ec984459ef15ad6284e1ae
   - enabled: 1
-    path: Assets/VRSample/Scenes/DayScene.unity
+    path: Assets/VRSample/VRProject/Scenes/DayScene.unity
     guid: 481fa65509a37c24ab6964b348c066fa
   - enabled: 1
-    path: Assets/VRSample/Scenes/NightScene.unity
+    path: Assets/VRSample/VRProject/Scenes/NightScene.unity
     guid: e141f3ed1fea4b04785c311500fc79bb
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}

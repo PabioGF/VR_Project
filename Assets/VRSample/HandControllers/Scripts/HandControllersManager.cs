@@ -86,7 +86,6 @@ public class HandControllersManager : MonoBehaviour
             teleportActivate.action.performed += OnTeleportStart;
             teleportActivate.action.canceled += OnTeleportCanceled;
         }
-
     }
 
     private void RemoveTeleportInteractorEvents()

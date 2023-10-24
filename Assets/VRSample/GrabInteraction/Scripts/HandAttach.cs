@@ -3,11 +3,13 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class HandAttach : MonoBehaviour
 {
+    private LanternController _lanternController;
 
     #region Unity methods
     private void Awake()
     {
         InitComponents();
+        _lanternController = gameObject.GetComponent<LanternController>();
     }
 
     private void OnEnable()
@@ -54,6 +56,8 @@ public class HandAttach : MonoBehaviour
         Pose attachPose = interactor.GetLocalAttachPoseOnSelect(selectInteractable);
         attachTransform.localPosition = attachPose.position;
         attachTransform.localRotation = attachPose.rotation;
+
+        _lanternController._isOnHand = true;
     }
     #endregion
 
