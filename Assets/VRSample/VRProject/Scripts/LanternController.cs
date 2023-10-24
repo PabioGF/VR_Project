@@ -39,6 +39,7 @@ public class LanternController : MonoBehaviour
 
     private void OnClickDown(InputAction.CallbackContext args)
     {
+        Debug.Log("CLick");
         if (!_isOnHand) { return; }
 
         if (!_lightOn)
