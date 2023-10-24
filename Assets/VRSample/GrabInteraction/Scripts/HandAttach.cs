@@ -4,6 +4,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class HandAttach : MonoBehaviour
 {
     private LanternController _lanternController;
+    private bool _inHand;
 
     #region Unity methods
     private void Awake()
@@ -44,7 +45,15 @@ public class HandAttach : MonoBehaviour
 
     private void OnSelected(SelectEnterEventArgs args)
     {        
-        SetOnMyHand(args.interactorObject);
+        if (!_inHand)
+        {
+            SetOnMyHand(args.interactorObject);
+            _inHand = true;
+        } else
+        {
+            _inHand = false;
+        }
+        
     }
     #endregion
 
