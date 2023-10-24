@@ -12614,7 +12614,7 @@ PrefabInstance:
     - target: {fileID: 6470923741047641810, guid: f8cfe1a94dbbad44a9e23e54d45a8771, type: 3}
       propertyPath: m_AttachTransform
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8750201024520133293}
     - target: {fileID: 6470923741047641810, guid: f8cfe1a94dbbad44a9e23e54d45a8771, type: 3}
       propertyPath: m_InteractionManager
       value: 
@@ -12622,7 +12622,7 @@ PrefabInstance:
     - target: {fileID: 6470923741047641810, guid: f8cfe1a94dbbad44a9e23e54d45a8771, type: 3}
       propertyPath: m_Colliders.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8750201024520133294}
     - target: {fileID: 7185528544836010060, guid: f8cfe1a94dbbad44a9e23e54d45a8771, type: 3}
       propertyPath: m_Name
       value: Lantern
@@ -12672,6 +12672,16 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8cfe1a94dbbad44a9e23e54d45a8771, type: 3}
+--- !u!4 &8750201024520133293 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8387673936277002705, guid: f8cfe1a94dbbad44a9e23e54d45a8771, type: 3}
+  m_PrefabInstance: {fileID: 8750201024520133292}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &8750201024520133294 stripped
+CapsuleCollider:
+  m_CorrespondingSourceObject: {fileID: 1565041210218766354, guid: f8cfe1a94dbbad44a9e23e54d45a8771, type: 3}
+  m_PrefabInstance: {fileID: 8750201024520133292}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
