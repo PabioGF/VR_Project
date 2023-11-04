@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a083b5c0d37c2d14b83808b3566e4879, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.732039
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a083b5c0d37c2d14b83808b3566e4879, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.00000035762787
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a083b5c0d37c2d14b83808b3566e4879, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.432
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a083b5c0d37c2d14b83808b3566e4879, type: 3}
       propertyPath: m_LocalRotation.w
@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5754084199372789682, guid: a083b5c0d37c2d14b83808b3566e4879, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4013275331872712965, guid: aa6f11f816242414684b95327785f460, type: 3}
     - target: {fileID: 919132149155446097, guid: a083b5c0d37c2d14b83808b3566e4879, type: 3}
       propertyPath: m_Name
       value: Rock1

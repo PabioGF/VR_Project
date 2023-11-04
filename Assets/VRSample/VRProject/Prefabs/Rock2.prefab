@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2569e1e383e2a1d4c855175a6a8ec7d2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.92396015
+      value: 3.441
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2569e1e383e2a1d4c855175a6a8ec7d2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5754084199372789682, guid: 2569e1e383e2a1d4c855175a6a8ec7d2, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4201981111663608202, guid: aa6f11f816242414684b95327785f460, type: 3}
     - target: {fileID: 919132149155446097, guid: 2569e1e383e2a1d4c855175a6a8ec7d2, type: 3}
       propertyPath: m_Name
       value: Rock2
