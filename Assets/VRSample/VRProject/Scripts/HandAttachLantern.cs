@@ -1,12 +1,16 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class HandAttach : MonoBehaviour
+public class HandAttachLantern : MonoBehaviour
 {
+    private LanternController _lanternController;
+    private bool _inHand;
+
     #region Unity methods
     private void Awake()
     {
         InitComponents();
+        _lanternController = gameObject.GetComponent<LanternController>();
     }
 
     private void OnEnable()
@@ -41,7 +45,15 @@ public class HandAttach : MonoBehaviour
 
     private void OnSelected(SelectEnterEventArgs args)
     {        
-        SetOnMyHand(args.interactorObject);
+        if (!_inHand)
+        {
+            SetOnMyHand(args.interactorObject);
+            _inHand = true;
+        } else
+        {
+            _inHand = false;
+        }
+        
     }
     #endregion
 
@@ -54,6 +66,7 @@ public class HandAttach : MonoBehaviour
         attachTransform.localPosition = attachPose.position;
         attachTransform.localRotation = attachPose.rotation;
 
+        _lanternController._isOnHand = true;
     }
     #endregion
 
