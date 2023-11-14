@@ -255,31 +255,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 816997670030131165}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 846862822620330236}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 7867732775032491311}
+      - m_Target: {fileID: 3043234260435321369}
         m_TargetAssemblyTypeName: MonumentSelector, Assembly-CSharp
         m_MethodName: TurnOffAfter
         m_Mode: 1
@@ -782,7 +758,8 @@ GameObject:
   - component: {fileID: 188050393905421289}
   - component: {fileID: 5943331890926540490}
   - component: {fileID: 9089892596166561945}
-  - component: {fileID: 7867732775032491311}
+  - component: {fileID: 3043234260435321369}
+  - component: {fileID: 2902199287870857650}
   m_Layer: 0
   m_Name: UI-Monument-Button
   m_TagString: Untagged
@@ -892,7 +869,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
---- !u!114 &7867732775032491311
+--- !u!114 &3043234260435321369
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -901,7 +878,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 6405093147077112313}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5e71bfdee67f6b45bed394d94776a23, type: 3}
+  m_Script: {fileID: 11500000, guid: 134ac21c6fed03b4f9876bd9dd4f4ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AfterMonument: {fileID: 0}
+  PreviousMonument: {fileID: 0}
+--- !u!114 &2902199287870857650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6405093147077112313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 134ac21c6fed03b4f9876bd9dd4f4ff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   AfterMonument: {fileID: 0}
@@ -1003,7 +994,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7272325412332636056
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1130,7 +1121,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 7867732775032491311}
+      - m_Target: {fileID: 2902199287870857650}
         m_TargetAssemblyTypeName: MonumentSelector, Assembly-CSharp
         m_MethodName: TurnOffPrevious
         m_Mode: 1
