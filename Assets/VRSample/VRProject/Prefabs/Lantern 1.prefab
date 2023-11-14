@@ -167,7 +167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6e7e9e68187069c46b2fada791528321, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -23.62
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6e7e9e68187069c46b2fada791528321, type: 3}
       propertyPath: m_LocalRotation.w
@@ -222,7 +222,7 @@ PrefabInstance:
       addedObject: {fileID: 6470923741047641810}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6e7e9e68187069c46b2fada791528321, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8613127920919547663}
+      addedObject: {fileID: 3852162808127699322}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6e7e9e68187069c46b2fada791528321, type: 3}
       insertIndex: -1
       addedObject: {fileID: 9126184407057703}
@@ -435,7 +435,7 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
---- !u!114 &8613127920919547663
+--- !u!114 &3852162808127699322
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -444,7 +444,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7185528544836010060}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40679703d07f74549873777bd727a6f0, type: 3}
+  m_Script: {fileID: 11500000, guid: ba4b4319de7716744b6cad8b50d5b718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &9126184407057703

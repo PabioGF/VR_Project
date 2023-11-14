@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.61216825, g: 0.6841179, b: 0.94846326, a: 1}
+  m_IndirectSpecularColor: {r: 0.6120079, g: 0.6841961, b: 0.9486244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1614,6 +1614,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock2
       objectReference: {fileID: 0}
+    - target: {fileID: 2920584607566936737, guid: a13ec266cf9f10040a3fae2f569abc89, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3713495288333179764, guid: a13ec266cf9f10040a3fae2f569abc89, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1630,7 +1634,8 @@ PrefabInstance:
       propertyPath: m_Colliders.Array.data[0]
       value: 
       objectReference: {fileID: 543596856}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3068868054720649516, guid: a13ec266cf9f10040a3fae2f569abc89, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2666,8 +2671,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 561.49994, y: 0}
-  m_SizeDelta: {x: 1122.9999, y: 0}
+  m_AnchoredPosition: {x: 561.5, y: 0}
+  m_SizeDelta: {x: 1123, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1403539291
 MonoBehaviour:
@@ -3662,7 +3667,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 303987235367613907, guid: 39d406e382aa3ee45a68ec85c32928b6, type: 3}
+    - {fileID: 5432119725261122834, guid: 39d406e382aa3ee45a68ec85c32928b6, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3782,7 +3789,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1904400101}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: 64b51b879a0c2c84ebb61be6d3402f4c, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -3792,7 +3799,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
@@ -4032,6 +4039,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock1
       objectReference: {fileID: 0}
+    - target: {fileID: 426217008683976738, guid: a6ab9c407a88090408938f6b3e8d1ba8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 608900307623230742, guid: a6ab9c407a88090408938f6b3e8d1ba8, type: 3}
       propertyPath: m_Height
       value: 0.15616506
@@ -4104,7 +4115,8 @@ PrefabInstance:
       propertyPath: m_Colliders.Array.data[0]
       value: 
       objectReference: {fileID: 543596856}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5056797310344044734, guid: a6ab9c407a88090408938f6b3e8d1ba8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
