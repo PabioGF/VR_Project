@@ -10,25 +10,29 @@ public class MonumentSelector : MonoBehaviour
     bool PrevOff;
     private void Start()
     {
-        AfterOff = false;
+        AfterMonument.SetActive(false);
+        AfterOff = true;
         PrevOff = false;
     }
 
     public void TurnOffAfter()
     {
-        if (!AfterOff)
+        if (AfterOff)
         {
-            AfterMonument.SetActive(false);
-            AfterOff = true;
+            AfterMonument.SetActive(true);
+            PreviousMonument.SetActive(false);
+            AfterOff = false;
+            
         }
         else
         {
-            AfterMonument.SetActive(true);
-            AfterOff = false;
+            AfterMonument.SetActive(false);
+            PreviousMonument.SetActive(true);
+            AfterOff = true;
         }
 
     }
-    public void TurnOffPrevious()
+    /**public void TurnOffPrevious()
     {
 
         if (!PrevOff)
@@ -42,5 +46,5 @@ public class MonumentSelector : MonoBehaviour
             PrevOff = false;
         }
 
-    }
+    }**/
 }

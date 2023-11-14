@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17948008, g: 0.22473375, b: 0.3063617, a: 1}
+  m_IndirectSpecularColor: {r: 0.17948028, g: 0.22473425, b: 0.30636227, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3267,12 +3267,52 @@ PrefabInstance:
       value: TurnOffPrevious
       objectReference: {fileID: 0}
     - target: {fileID: 801657548419129631, guid: 2b084a83f7bb63c438f27f924e10514a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 801657548419129631, guid: 2b084a83f7bb63c438f27f924e10514a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 801657548419129631, guid: 2b084a83f7bb63c438f27f924e10514a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 801657548419129631, guid: 2b084a83f7bb63c438f27f924e10514a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1715411785}
+    - target: {fileID: 801657548419129631, guid: 2b084a83f7bb63c438f27f924e10514a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1715411785}
+    - target: {fileID: 801657548419129631, guid: 2b084a83f7bb63c438f27f924e10514a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 1715411785}
     - target: {fileID: 801657548419129631, guid: 2b084a83f7bb63c438f27f924e10514a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TurnOffAfter
+      objectReference: {fileID: 0}
+    - target: {fileID: 801657548419129631, guid: 2b084a83f7bb63c438f27f924e10514a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: TurnOffAfter
+      objectReference: {fileID: 0}
+    - target: {fileID: 801657548419129631, guid: 2b084a83f7bb63c438f27f924e10514a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: TurnOffAfter
+      objectReference: {fileID: 0}
+    - target: {fileID: 801657548419129631, guid: 2b084a83f7bb63c438f27f924e10514a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MonumentSelector, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 801657548419129631, guid: 2b084a83f7bb63c438f27f924e10514a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: MonumentSelector, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 801657548419129631, guid: 2b084a83f7bb63c438f27f924e10514a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2115165694659895781, guid: 2b084a83f7bb63c438f27f924e10514a, type: 3}
       propertyPath: m_Pivot.x
@@ -3357,6 +3397,10 @@ PrefabInstance:
     - target: {fileID: 6405093147077112313, guid: 2b084a83f7bb63c438f27f924e10514a, type: 3}
       propertyPath: m_Name
       value: UI-Monument-Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 7591381772603393195, guid: 2b084a83f7bb63c438f27f924e10514a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7867732775032491311, guid: 2b084a83f7bb63c438f27f924e10514a, type: 3}
