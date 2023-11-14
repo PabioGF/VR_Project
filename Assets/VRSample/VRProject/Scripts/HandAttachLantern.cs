@@ -45,14 +45,7 @@ public class HandAttachLantern : MonoBehaviour
 
     private void OnSelected(SelectEnterEventArgs args)
     {        
-        if (!_inHand)
-        {
-            SetOnMyHand(args.interactorObject);
-            _inHand = true;
-        } else
-        {
-            _inHand = false;
-        }
+        SetOnMyHand(args.interactorObject);
         
     }
     #endregion
