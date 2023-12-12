@@ -6,12 +6,15 @@ using UnityEngine.Video;
 public class VideoController : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
-    public GameObject button;
+    public GameObject playButton;
+    public GameObject pauseButton;
+
     #region Unity methods
     // Start is called before the first frame update
     void Start()
     {
-        button.SetActive(true);
+        playButton.SetActive(true);
+        pauseButton.SetActive(false);
         videoPlayer.Prepare();
         //videoPlayer.frame = 0;
         //videoPlayer.Play();
@@ -27,10 +30,23 @@ public class VideoController : MonoBehaviour
 
     public void PlayVideo()
     {
-        if(videoPlayer.isPrepared)
+        if(videoPlayer.isPrepared && !videoPlayer.isPlaying)
         {
-            button.SetActive(false);
+            playButton.SetActive(false);
+            pauseButton.SetActive(true);
             videoPlayer.Play();
+            
+        }
+    }
+
+    public void PauseVideo()
+    {
+        if (videoPlayer.isPrepared && videoPlayer.isPlaying)
+        {
+            playButton.SetActive(true);
+            pauseButton.SetActive(false);
+            videoPlayer.Pause();
+
         }
     }
 
