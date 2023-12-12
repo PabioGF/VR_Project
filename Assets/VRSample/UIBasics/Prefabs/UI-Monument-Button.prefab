@@ -255,7 +255,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3043234260435321369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MonumentSelector, Assembly-CSharp
         m_MethodName: TurnOffAfter
         m_Mode: 1
@@ -758,8 +758,7 @@ GameObject:
   - component: {fileID: 188050393905421289}
   - component: {fileID: 5943331890926540490}
   - component: {fileID: 9089892596166561945}
-  - component: {fileID: 3043234260435321369}
-  - component: {fileID: 2902199287870857650}
+  - component: {fileID: 4663850897607888616}
   m_Layer: 0
   m_Name: UI-Monument-Button
   m_TagString: Untagged
@@ -869,21 +868,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
---- !u!114 &3043234260435321369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6405093147077112313}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 134ac21c6fed03b4f9876bd9dd4f4ff5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AfterMonument: {fileID: 0}
-  PreviousMonument: {fileID: 0}
---- !u!114 &2902199287870857650
+--- !u!114 &4663850897607888616
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1121,7 +1106,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 2902199287870857650}
+      - m_Target: {fileID: 4663850897607888616}
         m_TargetAssemblyTypeName: MonumentSelector, Assembly-CSharp
         m_MethodName: TurnOffPrevious
         m_Mode: 1

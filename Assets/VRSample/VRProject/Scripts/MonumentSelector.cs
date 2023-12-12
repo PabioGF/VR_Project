@@ -1,50 +1,44 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class MonumentSelector : MonoBehaviour
 {
-    public GameObject AfterMonument;
-    public GameObject PreviousMonument;
-    bool AfterOff;
-    bool PrevOff;
+    #region Global Variables
+    [SerializeField] private GameObject afterMonument;
+    [SerializeField] private GameObject previousMonument;
+    [SerializeField] private GameObject buttontext;
+
+    private bool isAfterActive;
+    private TextMeshPro text;
+    #endregion
+
+    #region Unity Methods
     private void Start()
     {
-        AfterMonument.SetActive(false);
-        AfterOff = true;
-        PrevOff = false;
+        afterMonument.SetActive(false);
+        isAfterActive = true;
+        text = buttontext.GetComponent<TextMeshPro>();
     }
+    #endregion
 
-    public void TurnOffAfter()
+    public void SwitchMonument()
     {
-        if (AfterOff)
+        if (isAfterActive)
         {
-            AfterMonument.SetActive(true);
-            PreviousMonument.SetActive(false);
-            AfterOff = false;
-            
+            Debug.Log("click");
+            afterMonument.SetActive(true);
+            previousMonument.SetActive(false);
+            isAfterActive = false;
+            text.text = "Abans";
         }
         else
         {
-            AfterMonument.SetActive(false);
-            PreviousMonument.SetActive(true);
-            AfterOff = true;
+            afterMonument.SetActive(false);
+            previousMonument.SetActive(true);
+            isAfterActive = true;
+            text.text = "Després";
         }
-
     }
-    /**public void TurnOffPrevious()
-    {
-
-        if (!PrevOff)
-        {
-            PreviousMonument.SetActive(false);
-            PrevOff = true;
-        }
-        else
-        {
-            PreviousMonument.SetActive(true);
-            PrevOff = false;
-        }
-
-    }**/
 }
