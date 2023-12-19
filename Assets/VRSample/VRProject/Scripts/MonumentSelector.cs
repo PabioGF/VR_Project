@@ -11,33 +11,33 @@ public class MonumentSelector : MonoBehaviour
     [SerializeField] private GameObject buttontext;
 
     private bool isAfterActive;
-    private TextMeshPro text;
+    private TextMeshProUGUI text;
     #endregion
 
     #region Unity Methods
     private void Start()
     {
         afterMonument.SetActive(false);
-        isAfterActive = true;
-        text = buttontext.GetComponent<TextMeshPro>();
+        isAfterActive = false;
+        text = buttontext.GetComponent<TextMeshProUGUI>();
     }
     #endregion
 
     public void SwitchMonument()
     {
-        if (isAfterActive)
+        Debug.Log("Clicl");
+        if (!isAfterActive)
         {
-            Debug.Log("click");
             afterMonument.SetActive(true);
             previousMonument.SetActive(false);
-            isAfterActive = false;
+            isAfterActive = true;
             text.text = "Abans";
         }
         else
         {
             afterMonument.SetActive(false);
             previousMonument.SetActive(true);
-            isAfterActive = true;
+            isAfterActive = false;
             text.text = "Després";
         }
     }
