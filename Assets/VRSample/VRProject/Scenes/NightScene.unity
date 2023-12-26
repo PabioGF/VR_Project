@@ -30958,10 +30958,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1568329302}
     m_Modifications:
-    - target: {fileID: 4824910420274740118, guid: 934f1a409ed710248ba1c1836ecc81a4, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8238641109304167039, guid: 934f1a409ed710248ba1c1836ecc81a4, type: 3}
       propertyPath: m_Name
       value: Antorcha
