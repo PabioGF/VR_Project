@@ -24036,6 +24036,10 @@ PrefabInstance:
       value: TurnOffPrevious
       objectReference: {fileID: 0}
     - target: {fileID: 353211249912840634, guid: 2b084a83f7bb63c438f27f924e10514a, type: 3}
+      propertyPath: m_text
+      value: "Selecciona per veure l'abans o el despr\xE9s!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 353211249912840634, guid: 2b084a83f7bb63c438f27f924e10514a, type: 3}
       propertyPath: m_fontColor.b
       value: 0.3764706
       objectReference: {fileID: 0}
